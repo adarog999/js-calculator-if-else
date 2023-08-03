@@ -119,8 +119,7 @@ function select1() {
     }
     else {
         message.innerHTML = ""
-        inp2.value = ''
-        inp1.value = ''
+        input1()
     }
 }
 function select2() {
@@ -131,7 +130,6 @@ function select2() {
     }
     else {
         message.innerHTML = ""
-        inp2.value = ''
-        inp1.value = ''
+        input2()
     }
 }

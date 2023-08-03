@@ -12,6 +12,7 @@ body {
     place-content: center;
     position: relative;
     background-color: #1B6B93;
+    overflow: hidden;
 }
 
 
