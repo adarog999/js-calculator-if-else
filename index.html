@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script/main.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <form action="">
+        <p id="message"></p>
+        <h2 class="title">
+            Length Converter
+        </h2>
+        <div>
+            <p>Convert From:</p>
+            <input type="number" oninput="input1()" id="m_value1">
+            <select name="" id="m_unit_1" onchange="select1()">
+                <option value="Meter">Meter</option>
+                <option value="Kilometre">Kilometre</option>
+                <option value="Yard">Yard</option>
+                <option value="Foot">Foot</option>
+            </select>
+        </div>
+        <div>
+            <p>Convert to:</p>
+            <input type="number" oninput="input2()" id="m_value2">
+            <select name="" id="m_unit_2" onchange="select2()">
+                <option value="Kilometre">Kilometre</option>
+                <option value="Meter">Meter</option>
+                <option value="Yard">Yard</option>
+                <option value="Foot">Foot</option>
+            </select>
+        </div>
+    </form>
+    <div class="div1">
+
+    </div>
+</body>
+</html>
